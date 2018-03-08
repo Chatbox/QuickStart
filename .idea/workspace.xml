@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22c11be8-76d6-478b-b2c9-927aff280ce7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="bot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeServers/SimpleLex/bot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <marker date="1520545696994" expanded="true" signature="0:147" ph="/** Example node server to use to integrate the Chatbox platform with Amazon Lex ...*/" />
+                <marker date="1520545696994" expanded="true" signature="373:469" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="510:1179" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="609:1175" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="704:884" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="922:1048" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1073:1125" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1131:1169" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1269:1366" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1430:1859" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1484:1648" ph="{&quot;botAlias&quot;: botAlias...}" />
+                <marker date="1520545696994" expanded="true" signature="1687:1810" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1706:1759" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1765:1804" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1892:6670" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="1959:2054" ph="{&quot;Content-Type&quot;: 'application/json'...}" />
+                <marker date="1520545696994" expanded="true" signature="2124:4326" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="2568:3990" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="2623:3975" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="2670:3955" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="2706:3177" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="2895:3140" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="3212:3372" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="3406:3569" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="3603:3754" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="3787:3933" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="4020:4047" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="4070:4200" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="4206:4271" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="4407:6463" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="4568:5377" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="4592:4693" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="4726:4827" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="4858:4925" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="4955:5367" ph="..." />
+                <marker date="1520545696994" expanded="true" signature="5180:5342" ph="{&quot;name&quot;: lexReply.slots.name...}" />
+                <marker date="1520545696994" expanded="true" signature="5683:6061" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="5738:6046" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="5829:5925" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="5931:6028" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="6091:6116" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="6207:6370" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="6376:6441" ph="{...}" />
+                <marker date="1520545696994" expanded="true" signature="6579:6666" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1717" />
+    <option name="y" value="23" />
+    <option name="width" value="1522" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="EmbeddableSites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="InstantApps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeServers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeServers" type="462c0819:PsiDirectoryNode" />
+              <item name="SimpleLex" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22c11be8-76d6-478b-b2c9-927aff280ce7" name="Default" comment="" />
+      <created>1520546554815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520546554815</updated>
+      <workItem from="1520546555964" duration="401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="401000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1717" y="23" width="1522" height="1417" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NodeServers/SimpleLex/bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1520545696994" expanded="true" signature="0:147" ph="/** Example node server to use to integrate the Chatbox platform with Amazon Lex ...*/" />
+            <marker date="1520545696994" expanded="true" signature="373:469" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="510:1179" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="609:1175" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="704:884" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="922:1048" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1073:1125" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1131:1169" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1269:1366" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1430:1859" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1484:1648" ph="{&quot;botAlias&quot;: botAlias...}" />
+            <marker date="1520545696994" expanded="true" signature="1687:1810" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1706:1759" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1765:1804" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1892:6670" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="1959:2054" ph="{&quot;Content-Type&quot;: 'application/json'...}" />
+            <marker date="1520545696994" expanded="true" signature="2124:4326" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="2568:3990" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="2623:3975" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="2670:3955" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="2706:3177" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="2895:3140" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="3212:3372" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="3406:3569" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="3603:3754" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="3787:3933" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="4020:4047" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="4070:4200" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="4206:4271" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="4407:6463" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="4568:5377" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="4592:4693" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="4726:4827" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="4858:4925" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="4955:5367" ph="..." />
+            <marker date="1520545696994" expanded="true" signature="5180:5342" ph="{&quot;name&quot;: lexReply.slots.name...}" />
+            <marker date="1520545696994" expanded="true" signature="5683:6061" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="5738:6046" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="5829:5925" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="5931:6028" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="6091:6116" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="6207:6370" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="6376:6441" ph="{...}" />
+            <marker date="1520545696994" expanded="true" signature="6579:6666" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

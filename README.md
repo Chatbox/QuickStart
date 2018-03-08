@@ -37,7 +37,7 @@ you to respond you have two options:
 * [Create a FAQ bot to respond for you](#Create-A-FAQ-Bot)
 
 
-##Handoff to User 
+## Handoff to User 
 #### Every New Interaction Go to Agent
 If you are using Chatbox as a means for your Agents to interact with customers, you may just want every new 
 interaction to go to an Agent Queue. To do this, click into Automations from the home console. 
