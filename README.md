@@ -6,10 +6,10 @@ how it is intended to be used. This guide assumes you will already
 have access to the home console
 
 ## Table of Contents
-* [Integrating Twilio](#Integrating-Twilio) 
+* [Integrating Twilio](#integrating-twilio) 
 * [Add New Interactions to Agent Pool](#handoff-to-user) 
-* [Create a FAQ bot](#Create-A-FAQ-Bot)
-* [Further Readings](#Further-Readings)
+* [Create a FAQ bot](#create-a-faq-bot)
+* [Further Readings](#further-readings)
 
 
 ## Integrating Twilio 
