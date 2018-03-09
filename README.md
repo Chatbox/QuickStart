@@ -38,14 +38,14 @@ you to respond you have two options:
 * [Create a FAQ bot to respond for you](#create-a-faq-bot)
 
 ## Making an Instant App
-<img src="WorkOrder.png" alt="Work order Instant App" width="200" height="400" />
+<img src="WorkOrder.png" alt="Work order Instant App" width="250" height="500" />
 
 Structured data is a vital part of any customer interaction. Chatbox has made collecting that data easy with 
 Instant Apps.
 <br><br>
 To create an Instant App, click on the Instant App button, and select Add Instant App. From this point you may 
 either use a template, import a json schema, or start from scratch. Whatever option you choose, to get the most out of 
-your instant app, you will have to play around with all of the elements/features available.
+your Instant App, you will have to play around with all of the elements/features available.
 
 ### Layout
 There are many elements available for use in your Instant App. The drag and drop functionality of the 
@@ -54,10 +54,27 @@ more commonly used layout elements.
 
 #### Image
 As the name suggests, the image tag allows you to upload an image into the Instant App. Try dragging and 
-dropping your image for a quick and easy upload!
+dropping your image for a quick and easy upload! Images can also be styled to affect the margins or the border.
 
 #### Single Line Input
+Single Line input fields are text input areas with a label that can be displayed above or inline with the text. 
+Virtually any kind of styling you could do with css is available in the styling tab. The Validation tab allows you 
+to make the data required, have a minimum/maximum number of characters, match a regular expression, or you can 
+write your own custom javascript validation function.
 
+#### Button
+Buttons, like all other elements can be styled in the style tab. The real use of buttons will be what event or action 
+they trigger when clicked. See the Events and Actions section for more information on that.
+
+#### Label
+The Label element is simply a field where text can be displayed using Markdown. This element can be styled in the 
+same way most other elements can be.
+
+#### Chart
+This element allows to you display a bar chart, pie chart, line chart, or scatter chart. You also have the option 
+to display static data from within the element or dynamically display data from a javascript snippet.
+
+### Events & Actions
 
 
 ## Handoff to User 
