@@ -35,10 +35,10 @@ Keep the Name and ID of the channel as they appear; the id will be referenced la
 Make the channel active and that's it! Your customers will now be able to reach you, but in order for 
 you to respond you have two options:
 * [Add New Interactions to Agent Pool](#handoff-to-user) 
-* [Create a FAQ bot to respond for you](#create-a-faq-Bot)
+* [Create a FAQ bot to respond for you](#create-a-faq-bot)
 
 ## Making an Instant App
-<img src="WorkOrder.png" alt="Work order Instant App" stlye="width:100px;" />
+<img src="WorkOrder.png" alt="Work order Instant App" width="200" height="400" />
 
 Structured data is a vital part of any customer interaction. Chatbox has made collecting that data easy with 
 Instant Apps.
