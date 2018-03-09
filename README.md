@@ -38,7 +38,7 @@ you to respond you have two options:
 * [Create a FAQ bot to respond for you](#create-a-faq-Bot)
 
 ## Making an Instant App
-![alt-text](WorkOrder.png "Work order Instant App")
+<img src="WorkOrder.png" alt="Work order Instant App" stlye="width:100px;" />
 
 Structured data is a vital part of any customer interaction. Chatbox has made collecting that data easy with 
 Instant Apps.
