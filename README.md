@@ -7,6 +7,7 @@ have access to the home console
 
 ## Table of Contents
 * [Integrating Twilio](#integrating-twilio) 
+* [Making an Instant App](#making-an-instant-app)
 * [Add New Interactions to Agent Pool](#handoff-to-user) 
 * [Create a FAQ bot](#create-a-faq-bot)
 * [Further Readings](#further-readings)
@@ -34,7 +35,29 @@ Keep the Name and ID of the channel as they appear; the id will be referenced la
 Make the channel active and that's it! Your customers will now be able to reach you, but in order for 
 you to respond you have two options:
 * [Add New Interactions to Agent Pool](#handoff-to-user) 
-* [Create a FAQ bot to respond for you](#Create-A-FAQ-Bot)
+* [Create a FAQ bot to respond for you](#create-a-faq-Bot)
+
+## Making an Instant App
+![alt-text](WorkOrder.png "Work order Instant App")
+
+Structured data is a vital part of any customer interaction. Chatbox has made collecting that data easy with 
+Instant Apps.
+<br><br>
+To create an Instant App, click on the Instant App button, and select Add Instant App. From this point you may 
+either use a template, import a json schema, or start from scratch. Whatever option you choose, to get the most out of 
+your instant app, you will have to play around with all of the elements/features available.
+
+### Layout
+There are many elements available for use in your Instant App. The drag and drop functionality of the 
+Instant App Builder allows you to easily play around with the layout to get it just right. Here are some of the 
+more commonly used layout elements.
+
+#### Image
+As the name suggests, the image tag allows you to upload an image into the Instant App. Try dragging and 
+dropping your image for a quick and easy upload!
+
+#### Single Line Input
+
 
 
 ## Handoff to User 
@@ -50,9 +73,9 @@ specified in the second parameter.
 
 #### Have a Bot Handoff to User
 One of the things that makes Chatbox so useful is the ability to have a bot handle as many questions as possible 
-but if a customer would rathe rhave a human respond, the bot can handoff the interaction to an Agent. 
+but if a customer would rather have a human respond, the bot can handoff the interaction to an Agent. 
 This portion of the guide requires you to have an FAQ bot already instantiated. If you do not have one, go to the 
-[Create a FAQ section](#Create-A-FAQ-Bot) and then come back. 
+[Create a FAQ section](#create-a-faq-bot) and then come back. 
 <br> <br>
 Having a bot hand off the interaction to an Agent is very simple! Create a new intent titled something like 'Agent'. 
 Within this intent, create Sample User Phrases that you would want a customer to ask for an Agent, 
