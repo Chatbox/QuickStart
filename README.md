@@ -30,7 +30,7 @@ Active in order to be able to use this integration.
 Adding a channel will open up a way for your customers to interact with you. From the home screen of the console, 
 click on channels, then  Add Channel, and finally Twilio-SMS. From your Twilio account, generate a new number. 
 <br><br>
-Once you have this number simply put that number in the assigned pohone number field in the New Twilio-SMS Channel page.
+Once you have this number simply put that number in the assigned phone number field in the New Twilio-SMS Channel page.
 Keep the Name and ID of the channel as they appear; the id will be referenced later in the guide.
 Make the channel active and that's it! Your customers will now be able to reach you, but in order for 
 you to respond you have two options:

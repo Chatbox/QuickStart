@@ -1,0 +1,43 @@
+{
+  "name": "chatbox-build",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "watch": "npm install && node_modules/.bin/webpack --config webpack.config.js -w"
+  },
+  "devDependencies": {
+    "@types/jquery": "2.0.34",
+    "@types/react": "16.0.5",
+    "@types/react-dom": "15.5.4",
+    "@types/react-router": "3.0.13",
+    "compression-webpack-plugin": "^0.4.0"
+  },
+  "dependencies": {
+    "awesome-typescript-loader": "3.1.2",
+    "body-parser": "^1.13.3",
+    "classnames": "^2.2.5",
+    "clean-webpack-plugin": "0.1.15",
+    "copy-webpack-plugin": "4.0.1",
+    "css-loader": "0.27.3",
+    "express": "^4.13.3",
+    "extract-text-webpack-plugin": "2.1.0",
+    "firebase": "^3.6.5",
+    "firebase-admin": "^4.2.1",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^18.0.0",
+    "jquery": "1.12.4",
+    "moment": "^2.18.1",
+    "node-sass": "4.5.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-router": "3",
+    "react-telephone-input": "https://github.com/ekwalker/react-telephone-input/archive/AndroidFix-v0.1.tar.gz",
+    "react-textarea-autosize": "4.0.5",
+    "request": "^2.61.0",
+    "restler": "^3.4.0",
+    "sass-loader": "6.0.3",
+    "string": "^3.3.1",
+    "typescript": "2.5.2",
+    "webpack": "^2.2.0"
+  }
+}
