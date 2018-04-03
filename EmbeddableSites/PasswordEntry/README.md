@@ -20,7 +20,7 @@ Specification:
 ### Example
 In this example we want two password fields, one for initial entry, the other for confirmation. 
 
-<img src="PasswordExample.png" alt="Example Password App" width="200" height="350" />
+<img src="PasswordExample.png" alt="Example Password App" width="400" height="300" />
 
 In order to do this put an embedded website element in the Layout, with the following website url:
 https://<i></i>chatbox.com/embed/password/password.html?label=Enter%20Password:&mask=*&width=100%25&callback=
