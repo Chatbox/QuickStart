@@ -1,7 +1,6 @@
 ## Password Entry Field Embed Site
 
-This should be hosted on chatbox just as chatbox.com/demo/payment.html is hosted today so that they don’t have to host the embedded site anywhere and can use it at their discretion.
-
+Embeddable site for including maskable password entry into an Instant App
 
 Parameters (order in the url should follow this order):
 1. Label -- optional -- the label to be displayed above the text  -- default to “Enter Password”
