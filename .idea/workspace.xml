@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22c11be8-76d6-478b-b2c9-927aff280ce7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/README.md" afterPath="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/README.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/Application.tsx" afterPath="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/Application.tsx" />
+      <change beforePath="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.html" afterPath="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.html" />
+      <change beforePath="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.tsx" afterPath="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.tsx" />
+      <change beforePath="$PROJECT_DIR$/NodeServers/SimpleLex/bot.js" afterPath="$PROJECT_DIR$/NodeServers/SimpleLex/bot.js" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,22 +27,23 @@
       <file leaf-file-name="bot.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeServers/SimpleLex/bot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
               <folding>
-                <marker date="1520545696994" expanded="true" signature="4020:4047" ph="{...}" />
-                <marker date="1520545696994" expanded="true" signature="6091:6116" ph="{...}" />
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1522866087931" expanded="true" signature="4360:4387" ph="{...}" />
+                <marker date="1522866087931" expanded="true" signature="6431:6456" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="885">
-                <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+              <first_editor relative-caret-position="742">
+                <caret line="106" column="66" lean-forward="true" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -45,15 +51,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+              <first_editor relative-caret-position="615">
+                <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddableSites/ScratchOff/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratchCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddableSites/ScratchOff/scratchOff/scratchCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratchCard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddableSites/ScratchOff/scratchOff/scratchCard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,8 +100,8 @@
       <file leaf-file-name="Application.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/Application.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="237">
+              <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -78,21 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="password.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="password.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,19 +130,12 @@
       <file leaf-file-name="password.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkOrder.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WorkOrder.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -131,8 +153,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.html" />
+        <option value="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.tsx" />
+        <option value="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/Application.tsx" />
+        <option value="$PROJECT_DIR$/NodeServers/SimpleLex/bot.js" />
         <option value="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/README.md" />
+        <option value="$PROJECT_DIR$/EmbeddableSites/ScratchOff/scratchOff/scratchCard.html" />
+        <option value="$PROJECT_DIR$/EmbeddableSites/ScratchOff/scratchOff/scratchCard.js" />
+        <option value="$PROJECT_DIR$/EmbeddableSites/ScratchOff/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -184,41 +213,20 @@
             <path>
               <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
-              <item name="CodeExamples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
               <item name="EmbeddableSites" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
               <item name="EmbeddableSites" type="462c0819:PsiDirectoryNode" />
-              <item name="PasswordEntry" type="462c0819:PsiDirectoryNode" />
+              <item name="ScratchOff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
               <item name="EmbeddableSites" type="462c0819:PsiDirectoryNode" />
-              <item name="PasswordEntry" type="462c0819:PsiDirectoryNode" />
-              <item name="password" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
-              <item name="InstantApps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
-              <item name="NodeServers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuickStart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuickStart" type="462c0819:PsiDirectoryNode" />
-              <item name="NodeServers" type="462c0819:PsiDirectoryNode" />
-              <item name="SimpleLex" type="462c0819:PsiDirectoryNode" />
+              <item name="ScratchOff" type="462c0819:PsiDirectoryNode" />
+              <item name="scratchOff" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,6 +244,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EmbeddableSites/ScratchOff" />
       <recent name="$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password" />
       <recent name="$PROJECT_DIR$/EmbeddableSites/PasswordEntry" />
     </key>
@@ -274,12 +283,12 @@
       <workItem from="1521577818469" duration="504000" />
       <workItem from="1521645537731" duration="472000" />
       <workItem from="1521672132316" duration="1017000" />
-      <workItem from="1522694697353" duration="9369000" />
+      <workItem from="1522694697353" duration="17945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31394000" />
+    <option name="totallyTimeSpent" value="39970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="119" width="1522" height="957" extended-state="0" />
@@ -321,8 +330,9 @@
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1520545696994" expanded="true" signature="4020:4047" ph="{...}" />
-            <marker date="1520545696994" expanded="true" signature="6091:6116" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1522866087931" expanded="true" signature="4360:4387" ph="{...}" />
+            <marker date="1522866087931" expanded="true" signature="6431:6456" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -348,8 +358,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520545696994" expanded="true" signature="4020:4047" ph="{...}" />
-            <marker date="1520545696994" expanded="true" signature="6091:6116" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1522866087931" expanded="true" signature="4360:4387" ph="{...}" />
+            <marker date="1522866087931" expanded="true" signature="6431:6456" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -365,58 +376,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeServers/SimpleLex/bot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1520545696994" expanded="true" signature="4020:4047" ph="{...}" />
-            <marker date="1520545696994" expanded="true" signature="6091:6116" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="885">
-            <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/Application.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -429,11 +392,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/password.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/password/Application.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeServers/SimpleLex/bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1522866087931" expanded="true" signature="4360:4387" ph="{...}" />
+            <marker date="1522866087931" expanded="true" signature="6431:6456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddableSites/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EmbeddableSites/PasswordEntry/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <first_editor relative-caret-position="615">
+            <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddableSites/ScratchOff/scratchOff/scratchCard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddableSites/ScratchOff/scratchOff/scratchCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddableSites/ScratchOff/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="742">
+            <caret line="106" column="66" lean-forward="true" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
             <folding />
           </first_editor>
           <second_editor />

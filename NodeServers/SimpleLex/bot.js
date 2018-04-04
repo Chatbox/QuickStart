@@ -5,6 +5,16 @@
  * Endpoint to hit is /message?number={chatboxUserId}
  */
 
+/*
+ *  Project workflow:
+ *  1. Incoming message to /message endpoint
+ *  2. callSendToLex
+ *      a. In the code update {LexAlias} and {LexBotName}
+ *      b. Call processLex with updated orgChannelCode
+ *  3. Make a custom response for each response from Lex.
+ *  4. Use Chatbox API to continue the conversation with the customer.
+ *
+ */
 
 
 

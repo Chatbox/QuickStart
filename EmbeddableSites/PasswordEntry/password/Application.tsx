@@ -23,7 +23,7 @@ export default class Application extends React.Component<MyProps, MyState> {
     callbackFunction;
 
     constructor(props) {
-        super(props);
+        super();
         var maskedPassword = '';
         for (var i = 0; i < props.password.length; i++) {
             maskedPassword += props.mask;
@@ -41,7 +41,7 @@ export default class Application extends React.Component<MyProps, MyState> {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.callback = this.callback.bind(this);
-        this.handleKeyUp = this.handleKeyUp.bind(this);
+        this.handleKeyPress = this.handleKeyPress.bind(this);
         this.handleBlur = this.handleBlur.bind(this);
     }
 
@@ -49,7 +49,8 @@ export default class Application extends React.Component<MyProps, MyState> {
         return "//" + window.location.href.split('callback=')[1];
     };
 
-    handleKeyUp(event) {
+    //Take away form submission on pressing Enter
+    handleKeyPress(event) {
         if (event.key === "Enter") {
             event.preventDefault();
             console.log("Enter pressed");
@@ -159,7 +160,7 @@ export default class Application extends React.Component<MyProps, MyState> {
             <form>
                 <label className="left">{this.state.label}</label>
                 <span className="left2"><input type="text" value={this.state.maskedPassword}
-                                               onKeyPress={this.handleKeyUp} style={inputStyle}
+                                               onKeyPress={this.handleKeyPress} style={inputStyle}
                                                onChange={this.handleChange} onBlur={this.handleBlur}/></span>
             </form>
         );

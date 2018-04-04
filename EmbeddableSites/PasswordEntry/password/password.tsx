@@ -3,7 +3,6 @@ import * as ReactDOM from "react-dom";
 import  Application  from './Application';
 
 let params = getParamsFromUrl(window.location.href);
-console.log(params);
 
 let rootElement = document.getElementById('password')
 if (rootElement) {
@@ -20,6 +19,8 @@ if (rootElement) {
 
 
 function getParamsFromUrl(hashBased: string) {
+
+    //Seperate the params from the rest of the url
     var query;
     if (hashBased) {
         var pos = location.href.indexOf("?");
@@ -29,11 +30,12 @@ function getParamsFromUrl(hashBased: string) {
         query = location.search.substr(1);
     }
     var result = {};
+
+    //Default parameter values
     result['mask'] = '*';
     result['label'] = 'Enter Password';
     result['password'] = '';
     result['width'] = '100%';
-    console.log(query);
 
     var i1 = query.indexOf("label=");
     var i2 = query.indexOf("password=");
@@ -41,6 +43,7 @@ function getParamsFromUrl(hashBased: string) {
     var i4 = query.indexOf("width=");
     var i5 = query.indexOf("callback=");
 
+    //Strip the parameter values from the rest of the url
     if (i1 != -1) {
         if (i2 != -1) result['label'] = decodeURI(query.substring(i1 + 6, i2 - 1));
         else if (i3 != -1) result['label'] = decodeURI(query.substring(i1 + 6, i3 - 1));

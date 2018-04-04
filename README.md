@@ -1,6 +1,6 @@
 # Starter for Chatbox
 
-Welcome to Chatbox, the worlds leader in customer relations software! 
+Welcome to Chatbox, the worlds leader in creating customer relations software! 
 This guide is intended to help people get off the ground using Chatbox 
 how it is intended to be used. This guide assumes you will already 
 have access to the home console
@@ -75,7 +75,19 @@ This element allows to you display a bar chart, pie chart, line chart, or scatte
 to display static data from within the element or dynamically display data from a javascript snippet.
 
 ### Events & Actions
+This is where your Instant App really comes to life! Here you can have action handlers for many possible triggers 
+on many possible elements. As a basic action, make two panes in the Instant App, with just a button on the first pane. 
+In the Events and Actions tab, click the button from the first pane. Choose a condition to set when the action will 
+be triggered. For buttons, the available options are 'pane is valid', 'pane is invalid', or 'button 
+is pressed regardless of validation'. There are more options when making actions for the other elements.
 
+To make the button go to the next pane, simply select the 'Activate and Show Pane' action. Then just drag and drop 
+the second pane and your button will show the second pane.
+
+When selecting an Action, there are many available options. Most allow you to use the drag and drop functionality 
+to fulfil the action. All require no knowledge of javascript, except JavaScript Snippet. This allows you to write your
+own javascript to include some extra logic in the other actions. Refer to the following documentation to aid in 
+writing your own JavaScript Snippets: [Snippet Documentation](https://docs.chatbox.com/omce/instant-apps/instant-app-events/actions/javascript-snippets/#function-parameters)
 
 ## Handoff to User 
 #### Every New Interaction Go to Agent
@@ -92,7 +104,7 @@ specified in the second parameter.
 One of the things that makes Chatbox so useful is the ability to have a bot handle as many questions as possible 
 but if a customer would rather have a human respond, the bot can handoff the interaction to an Agent. 
 This portion of the guide requires you to have an FAQ bot already instantiated. If you do not have one, go to the 
-[Create a FAQ section](#create-a-faq-bot) and then come back. 
+[Create a FAQ bot](#create-a-faq-bot) section and then come back. 
 <br> <br>
 Having a bot hand off the interaction to an Agent is very simple! Create a new intent titled something like 'Agent'. 
 Within this intent, create Sample User Phrases that you would want a customer to ask for an Agent, 
