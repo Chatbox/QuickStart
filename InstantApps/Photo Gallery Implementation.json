@@ -1,0 +1,300 @@
+{
+    "actionList": [
+        {
+            "elementTrigger": "clear",
+            "enabled": true,
+            "eventTrigger": "valueChanged",
+            "snippetCode": "app.setElementLabel(\"gallery\", \"\");\n",
+            "trigger": "paneValid",
+            "type": "actionSnippet"
+        }
+    ],
+    "chatbox": {
+        "active": true,
+        "apiId": "photoGallery",
+        "build": 5,
+        "builder": {
+            "editCount": 41
+        },
+        "id": 20,
+        "tagList": [
+        ],
+        "trashed": false
+    },
+    "displayList": [
+        {
+            "allowDismiss": false,
+            "elementList": [
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "html": "<div>\nThis instant app shows how to implement a multiple photo upload and gallery\n</div>",
+                        "type": "html"
+                    },
+                    "id": "html_3",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "center"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "type": "divider"
+                    },
+                    "id": "divider_1",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#333",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "height": "3px",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "buttonText": "Send Photos",
+                        "cancel": "Cancel",
+                        "clear": "Clear",
+                        "customerCanEdit": true,
+                        "done": "Upload Complete",
+                        "dragDrop": "or Drag and Drop",
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": false,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "filesizeLimit": 10000000,
+                        "imagesOnly": false,
+                        "inProgress": "Uploading",
+                        "label": "",
+                        "maxHeight": 200,
+                        "maxWidth": 300,
+                        "required": false,
+                        "showFilename": false,
+                        "showPreview": true,
+                        "type": "upload",
+                        "uploaderLabel": "",
+                        "waiting": "Please send photos of damage or injuries"
+                    },
+                    "id": "photo",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "dashed",
+                        "borderWidth": "1px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "center"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "html": "",
+                        "type": "html"
+                    },
+                    "id": "gallery",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "center"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "buttonClass": "InteractiveButton",
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": false,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "label": "Clear all uploaded images",
+                        "required": false,
+                        "type": "button"
+                    },
+                    "id": "clear",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#598EC7",
+                        "borderColor": "#333",
+                        "borderRadius": "3px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#FFFFFF",
+                        "elementClass": "",
+                        "fontSize": "18px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "center",
+                        "width": "100%"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "50px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "20px",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                }
+            ],
+            "id": "PANE_2",
+            "validation": {
+                "asYouGo": true,
+                "errorMessage": "Please see errors above before continuing.",
+                "snippet": "",
+                "usingSnippet": false
+            }
+        }
+    ],
+    "externalDataList": [
+    ],
+    "general": {
+        "author": "Unknown",
+        "created": "Sat Apr 21 2018",
+        "inviteMessageList": [
+            "Click to open this Instant App {link}"
+        ],
+        "name": "Photo Gallery Implementation"
+    },
+    "snippetList": [
+        {
+            "elementTrigger": "photo",
+            "eventTrigger": "valueChanged",
+            "snippetCode": "\nvar url = \"<img style='max-width: 90px; max-height:90px;margin: 5px;' src=\";\nurl = url + app.elements.photo.value.url;\nurl = url + \" />\";\n\nvar prev = app.elements.gallery.label || \"\";\n\napp.setElementLabel(\"gallery\", prev + url);\n\napp.setElementValue(\"photo\", \"\");"
+        }
+    ],
+    "version": 7
+}

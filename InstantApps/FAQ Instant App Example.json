@@ -1,0 +1,222 @@
+{
+    "actionList": [
+    ],
+    "chatbox": {
+        "active": true,
+        "apiId": "faq",
+        "build": 3,
+        "builder": {
+            "editCount": 98
+        },
+        "id": 144,
+        "tagList": [
+        ],
+        "trashed": false
+    },
+    "displayList": [
+        {
+            "allowDismiss": false,
+            "elementList": [
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "html": "FAQ Demo\n<br />\nTry &#34;Seattle&#34; or &#34;Location&#34;",
+                        "type": "html"
+                    },
+                    "id": "html_1",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "18px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "center"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "type": "divider"
+                    },
+                    "id": "divider_1",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#333",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "height": "3px",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "agentCanEdit": false,
+                        "agentMasked": false,
+                        "customerCanEdit": true,
+                        "elementValidation": {
+                            "maxLength": 0,
+                            "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                            "minLength": 0,
+                            "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                            "regex": "",
+                            "regexErrorMessage": "",
+                            "required": false,
+                            "requiredErrorMessage": "This is required",
+                            "snippet": "",
+                            "validateMaxLength": false,
+                            "validateMinLength": false,
+                            "validateRegex": false,
+                            "validateSnippet": false
+                        },
+                        "label": "FAQ Search",
+                        "labelInline": true,
+                        "maxLength": 256,
+                        "placeholder": "",
+                        "required": false,
+                        "type": "singleLineInput"
+                    },
+                    "id": "search",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#ccc",
+                        "borderRadius": "4px",
+                        "borderStyle": "solid",
+                        "borderWidth": "1px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                },
+                {
+                    "actionList": [
+                    ],
+                    "detail": {
+                        "html": "",
+                        "type": "html"
+                    },
+                    "id": "results",
+                    "initiallyEnabled": true,
+                    "initiallyVisible": true,
+                    "innerStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#333",
+                        "borderRadius": "0px",
+                        "borderStyle": "solid",
+                        "borderWidth": "0px",
+                        "color": "#333333",
+                        "elementClass": "",
+                        "fontSize": "13px",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "labelClass": "",
+                        "textAlign": "left"
+                    },
+                    "outerStyles": {
+                        "marginBottom": "12px",
+                        "marginLeft": "0",
+                        "marginRight": "0",
+                        "marginTop": "0",
+                        "paddingBottom": "0",
+                        "paddingLeft": "0",
+                        "paddingRight": "0",
+                        "paddingTop": "0",
+                        "width": "100%"
+                    },
+                    "since": 0,
+                    "tooltip": ""
+                }
+            ],
+            "id": "PANE_1",
+            "validation": {
+                "asYouGo": true,
+                "errorMessage": "Please see errors above before continuing.",
+                "snippet": "",
+                "usingSnippet": false
+            }
+        }
+    ],
+    "externalDataList": [
+    ],
+    "general": {
+        "author": "Unknown",
+        "created": "Tue Apr 24 2018",
+        "inviteMessageList": [
+            "Click to open this Instant App {link}"
+        ],
+        "name": "FAQ"
+    },
+    "snippetList": [
+        {
+            "elementTrigger": "search",
+            "eventTrigger": "valueChanged",
+            "snippetCode": "if (newValue == \"\") {\n   app.setElementLabel(\"results\", \"\");\n   return;\n}\n\nvar corpus = [\n   {\n    \"t\": \"Location\",\n    \"a\": \"We are located in Seattle, WA.\"\n   },\n   {\n    \"t\": \"Employees\",\n    \"a\": \"We have 20 employees located in Seattle.\"\n   },\n   {\n      \"t\": \"Tell me about Seattle\",\n      \"a\": \"2815 <span style='color: red'>Eastlake</span> Ave E.\"\n   }\n];\n\nvar answers = \"<div style='font-size: 14px; line-height: 16px'>\";\n\nfor (var i = 0; i < corpus.length; i++) {\n   print(corpus[i].t);\n   var tIndex = corpus[i].t.toLowerCase().indexOf(newValue.toLowerCase());\n   var aIndex = corpus[i].a.toLowerCase().indexOf(newValue.toLowerCase());\n   if (tIndex != -1 || aIndex != -1) {\n      answers = answers + \"<div style='padding-bottom: 10px;'>\";\n      if (tIndex != -1) {\n         var t =  corpus[i].t.slice(0, tIndex);\n         t = t + \"<span style='background: yellow'>\" + newValue + \"</span>\";\n         t = t + corpus[i].t.slice(tIndex + newValue.length);\n         \n         answers = answers + \"<b>\" + t + \"</b>\";\n      } else {\n         answers = answers + \"<b>\" + corpus[i].t + \"</b>\";\n      }\n      \n      if (aIndex != -1) {\n         var a =  corpus[i].a.slice(0, aIndex);\n         a = a + \"<span style='background: yellow'>\" + newValue + \"</span>\";\n         a = a + corpus[i].t.slice(aIndex + newValue.length);\n         answers = answers + \"<br>\" + a;\n      } else {\n         answers = answers + \"<br>\" + corpus[i].a;\n      }\n      \n      answers = answers + \"</div>\";\n   }\n}\n\nanswers = answers + \"</div>\";\napp.setElementLabel(\"results\", answers);\n"
+        }
+    ],
+    "version": 7
+}
