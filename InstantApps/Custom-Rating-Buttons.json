@@ -1,0 +1,726 @@
+{
+   "actionList": [
+      {
+         "elementTrigger": "b1",
+         "enabled": true,
+         "eventTrigger": "valueChanged",
+         "snippetCode": "app.showElements(\"b1s\",\"b2\", \"b3\", \"b4\", \"b5\");\napp.hideElements(\"b1\", \"b2s\", \"b3s\", \"b4s\", \"b5s\");\napp.setElementValue(\"painValue\", \"1\");",
+         "trigger": "paneValid",
+         "type": "actionSnippet"
+      },
+      {
+         "elementTrigger": "b2",
+         "enabled": true,
+         "eventTrigger": "valueChanged",
+         "snippetCode": "app.showElements(\"b1\",\"b2s\", \"b3\", \"b4\", \"b5\");\napp.hideElements(\"b1s\", \"b2\", \"b3s\", \"b4s\", \"b5s\");\napp.setElementValue(\"painValue\", \"2\");",
+         "trigger": "paneValid",
+         "type": "actionSnippet"
+      },
+      {
+         "elementTrigger": "b3",
+         "enabled": true,
+         "eventTrigger": "valueChanged",
+         "snippetCode": "app.showElements(\"b1\",\"b2\", \"b3s\", \"b4\", \"b5\");\napp.hideElements(\"b1s\", \"b2s\", \"b3\", \"b4s\", \"b5s\");\napp.setElementValue(\"painValue\", \"3\");",
+         "trigger": "paneValid",
+         "type": "actionSnippet"
+      },
+      {
+         "elementTrigger": "b4",
+         "enabled": true,
+         "eventTrigger": "valueChanged",
+         "snippetCode": "app.showElements(\"b1\",\"b2\", \"b3\", \"b4s\", \"b5\");\napp.hideElements(\"b1s\", \"b2s\", \"b3s\", \"b4\", \"b5s\");\napp.setElementValue(\"painValue\", \"4\");",
+         "trigger": "paneValid",
+         "type": "actionSnippet"
+      },
+      {
+         "elementTrigger": "b5",
+         "enabled": true,
+         "eventTrigger": "valueChanged",
+         "snippetCode": "app.showElements(\"b1\",\"b2\", \"b3\", \"b4\", \"b5s\");\napp.hideElements(\"b1s\", \"b2s\", \"b3s\", \"b4s\", \"b5\");\napp.setElementValue(\"painValue\", \"5\");",
+         "trigger": "paneValid",
+         "type": "actionSnippet"
+      }
+   ],
+   "authList": [
+   ],
+   "chatbox": {
+      "active": false,
+      "build": 3,
+      "builder": {
+         "editCount": 156
+      },
+      "code": "custom_rating_buttons",
+      "id": 34,
+      "trashed": false
+   },
+   "displayList": [
+      {
+         "allowDismiss": false,
+         "elementList": [
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "1",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b1",
+               "initiallyEnabled": true,
+               "initiallyVisible": true,
+               "innerStyles": {
+                  "backgroundColor": "rgba(185, 198, 211, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "1",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b1s",
+               "initiallyEnabled": true,
+               "initiallyVisible": false,
+               "innerStyles": {
+                  "backgroundColor": "rgba(107, 255, 16, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "2",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b2",
+               "initiallyEnabled": true,
+               "initiallyVisible": true,
+               "innerStyles": {
+                  "backgroundColor": "rgba(185, 198, 211, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "2",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b2s",
+               "initiallyEnabled": true,
+               "initiallyVisible": false,
+               "innerStyles": {
+                  "backgroundColor": "rgba(107, 255, 16, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "3",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b3",
+               "initiallyEnabled": true,
+               "initiallyVisible": true,
+               "innerStyles": {
+                  "backgroundColor": "rgba(185, 198, 211, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "3",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b3s",
+               "initiallyEnabled": true,
+               "initiallyVisible": false,
+               "innerStyles": {
+                  "backgroundColor": "rgba(107, 255, 16, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "4",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b4",
+               "initiallyEnabled": true,
+               "initiallyVisible": true,
+               "innerStyles": {
+                  "backgroundColor": "rgba(185, 198, 211, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "4",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b4s",
+               "initiallyEnabled": true,
+               "initiallyVisible": false,
+               "innerStyles": {
+                  "backgroundColor": "rgba(107, 255, 16, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "5",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b5",
+               "initiallyEnabled": true,
+               "initiallyVisible": true,
+               "innerStyles": {
+                  "backgroundColor": "rgba(185, 198, 211, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "buttonClass": "InteractiveButton",
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "5",
+                  "required": false,
+                  "type": "button"
+               },
+               "id": "b5s",
+               "initiallyEnabled": true,
+               "initiallyVisible": false,
+               "innerStyles": {
+                  "backgroundColor": "rgba(107, 255, 16, 1)",
+                  "borderColor": "#333",
+                  "borderRadius": "50%",
+                  "borderStyle": "solid",
+                  "borderWidth": "3px",
+                  "color": "rgba(35, 35, 211, 1)",
+                  "elementClass": "",
+                  "fontSize": "14px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "center"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "20%"
+               },
+               "since": 0,
+               "tooltip": ""
+            },
+            {
+               "actionList": [
+               ],
+               "detail": {
+                  "agentCanEdit": false,
+                  "agentMasked": false,
+                  "customerCanEdit": true,
+                  "elementValidation": {
+                     "maxLength": 0,
+                     "maxLengthErrorMessage": "This field does not accept more than {$count} characters.",
+                     "minLength": 0,
+                     "minLengthErrorMessage": "This field requires at least {$count} characters.",
+                     "regex": "",
+                     "regexErrorMessage": "",
+                     "required": false,
+                     "requiredErrorMessage": "This is required",
+                     "snippet": "",
+                     "validateMaxLength": false,
+                     "validateMinLength": false,
+                     "validateRegex": false,
+                     "validateSnippet": false
+                  },
+                  "label": "HIDDEN FIELD FOR VALUE OF BUTTON",
+                  "labelInline": false,
+                  "maxLength": 256,
+                  "placeholder": "",
+                  "required": false,
+                  "type": "singleLineInput"
+               },
+               "id": "painValue",
+               "initiallyEnabled": true,
+               "initiallyVisible": true,
+               "innerStyles": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#ccc",
+                  "borderRadius": "4px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "color": "#333333",
+                  "elementClass": "",
+                  "fontSize": "13px",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                  "labelClass": "",
+                  "textAlign": "left"
+               },
+               "outerStyles": {
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0",
+                  "marginTop": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "paddingRight": "0",
+                  "paddingTop": "0",
+                  "width": "100%"
+               },
+               "since": 0,
+               "tooltip": ""
+            }
+         ],
+         "id": "PANE_1",
+         "validation": {
+            "asYouGo": true,
+            "errorMessage": "Please see errors above before continuing.",
+            "snippet": "",
+            "usingSnippet": false
+         }
+      }
+   ],
+   "externalDataList": [
+   ],
+   "general": {
+      "author": "Unknown",
+      "created": "Fri Apr 27 2018",
+      "icon": "/upload/s3?k=public%2FO46%2Fschema%2FUpnv%2FfKW0%2Fz5etRX01jAPvJ4Wkd8saSTEgBv8svbArwDndIXkypv7tbgc2EUL2j4kwBi4n1euBjJ4QOc1_3xfJmQ%3D%3D%2FScreen%2BShot%2B2018-04-27%2Bat%2B11.22.31%2BAM.png",
+      "internalDescription": "Shows how to hack buttons to form a custom list of buttons/values -- would be equally as easy to embed an image tag into each of the buttons as well.",
+      "inviteMessageList": [
+         "Click to join this Instant App {link}"
+      ],
+      "name": "Custom Rating Buttons",
+      "previewIcon": "/upload/s3?k=public%2FO46%2Fschema%2Fvmgo%2F_RLs%2Fj-QUm2n8mfs04ExTZltmAKxo_jwfDnBrDVgtYsqmRwM7wchAfdl9VSU2Bjp08bXRecUKmTHYHjMzcg%3D%3D%2FScreen%2BShot%2B2018-04-27%2Bat%2B11.22.31%2BAM.png"
+   },
+   "snippetList": [
+   ],
+   "version": 6
+}

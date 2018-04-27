@@ -104,3 +104,18 @@ app.setElementLabel("results", answers);
 
 This snippet will select the answers from the corpus where the search text is contained in either the question or the answer.
 After an answer has been selected, HTML is constructed and set to an element in the Instant App.
+
+### Custom Ratings Buttons
+This Instant App shows how to implement buttons that will change color when clicked. In this instance,
+when you click one button, if any other button was highlighted, it will go back to the default styling. 
+What makes this work is the ability to put two buttons for each number in the layout: one button for the default 
+styling, and another button to signify that it has been selected. For each default button, there is an action handler
+that will show the highlighted button if it was clicked, and display each of the other default buttons. In addition 
+to the display, The action handler also saves the value of the button that was clicked for use elsewhere in the Instant App.
+Here is an example of the snippet that controls the nature of the Instant App:
+
+```javascript
+app.showElements("b1","b2s", "b3", "b4", "b5");
+app.hideElements("b1s", "b2", "b3s", "b4s", "b5s");
+app.setElementValue("painValue", "2");
+```
