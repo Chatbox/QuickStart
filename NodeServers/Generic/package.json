@@ -1,0 +1,17 @@
+{
+  "name": "generic",
+  "version": "1.0.0",
+  "description": "This is a starter for developing custom event handlers and custom endpoints for use from within Chatbox. Additionally shows a use case for using the Chatbox SDK",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Pappas <pappas_joe@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "chatbox_sdk": "^1.1.2",
+    "node-fetch": "^2.1.1"
+  }
+}
